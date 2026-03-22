@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "zombie-catchers",
+	"version": "${version}",
+	"name": "zombie-catchers",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/zombie-catchers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"zombie.catchers.Zombiecatchers"
+		],
+		"client": [
+			"zombie.catchers.ZombiecatchersClient"
+		],
+		"fabric-datagen": [
+			"zombie.catchers.ZombiecatchersDataGenerator"
+		]
+	},
+	"mixins": [
+		"zombie-catchers.mixins.json",
+		{
+			"config": "zombie-catchers.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
