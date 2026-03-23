@@ -1,11 +1,13 @@
 package zombie.catchers.init;
 
+import main.java.zombie.catchers.item.HarpoonGunItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import zombie.catchers.Zombiecatchers;
+import zombie.catchers.item.HarpoonGunItem;
 
 public class ModItems {
 
@@ -14,7 +16,7 @@ public class ModItems {
 
     // ── Harpoon Gun ── fires a projectile that captures zombies
     public static final RegistryObject<Item> HARPOON_GUN =
-        ITEMS.register("harpoon_gun", () -> new Item(new Item.Properties()));
+    ITEMS.register("harpoon_gun", () -> new HarpoonGunItem(new Item.Properties()));
 
     // ── Zombie Cage ── holds a captured zombie
     public static final RegistryObject<Item> ZOMBIE_CAGE =
