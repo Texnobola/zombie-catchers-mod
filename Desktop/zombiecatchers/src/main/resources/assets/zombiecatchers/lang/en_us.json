@@ -1,0 +1,11 @@
+{
+    "item.zombiecatchers.gold_coin": "Gold Coin",
+    "item.zombiecatchers.harpoon_gun": "Harpoon Gun",
+    "item.zombiecatchers.zombie_cage": "Zombie Cage",
+    "item.zombiecatchers.jetpack": "Jetpack",
+    "item.zombiecatchers.zombie_juice_green": "Green Zombie Juice",
+    "item.zombiecatchers.zombie_juice_red": "Red Zombie Juice",
+    "item.zombiecatchers.zombie_juice_blue": "Blue Zombie Juice",
+    "item.zombiecatchers.zombie_essence": "Zombie Essence",
+    "itemGroup.zombiecatchers.main": "Zombie Catchers"
+}
