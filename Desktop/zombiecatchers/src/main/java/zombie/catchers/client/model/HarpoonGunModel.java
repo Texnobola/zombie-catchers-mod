@@ -12,10 +12,10 @@ public class HarpoonGunModel extends GeoModel<HarpoonGunItem> {
         return new ResourceLocation(Zombiecatchers.MOD_ID, "geo/harpoon_gun.geo.json");
     }
 
-@Override
-public ResourceLocation getTextureResource(HarpoonGunItem item) {
-    return new ResourceLocation(Zombiecatchers.MOD_ID, "textures/item/harpoon_gun_texture.png");
-}
+    @Override
+    public ResourceLocation getTextureResource(HarpoonGunItem item) {
+        return new ResourceLocation(Zombiecatchers.MOD_ID, "textures/item/harpoon_gun_texture.png");
+    }
 
     @Override
     public ResourceLocation getAnimationResource(HarpoonGunItem item) {

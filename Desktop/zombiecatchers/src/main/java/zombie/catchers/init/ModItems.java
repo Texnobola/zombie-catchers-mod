@@ -1,6 +1,6 @@
 package zombie.catchers.init;
 
-import main.java.zombie.catchers.item.HarpoonGunItem;
+
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
